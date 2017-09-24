@@ -1,0 +1,193 @@
+.projects{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #e8e8e8;
+	border-bottom: 2px solid #ccc;
+}
+h3{
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+h4 {
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 0;
+	text-align: left;
+}
+h5{
+	font-weight: bold;
+	margin-top: 0;
+	text-align: center;
+	font-style: italic;
+}
+.caption p, .project-description p{
+	padding-top: 5px;
+	color: #000;
+	font-size: 14px;
+	text-align: justify;
+}
+
+
+.section-image{
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	border:none;
+}
+
+.navbar{
+	margin: 0;
+}
+#meetthejetsons{
+	margin: 0;
+	margin-right: 0;
+	width: 100%;
+	padding-top: 20px;
+	border-bottom: solid 4px #ccc;
+	background-color: #fff;
+}
+#jetsons-content{
+	padding:auto;
+}
+
+#quadcopter{
+	background-color: #e8e8e8;
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#aerodesign{
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: solid 4px #ccc;
+}
+#aeroinfo{
+	padding-bottom: 10px;
+	height: 100%;
+}
+
+#aeroprojects h4{
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 0;
+	font-style: normal;
+}
+#aeroprojects p{
+	padding: 2px;
+	text-align: center;
+}
+
+.cycle-slideshow{
+	width: 100%;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 2%;
+	margin-top: 5px;
+	margin-left:0px; 
+	position: relative;
+	min-width: 250px;
+}
+
+.cycle-slideshow img{
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+	
+}
+.center a{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.center p{
+	display: inline-block;
+}
+.center img{
+	width: 32px;
+}
+.slideshow-container{
+
+	float: left;
+	margin-right: 1%;
+	
+	margin-bottom: 1%;
+}
+
+
+.project-slide{
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: none;
+}
+.project-slide .slideshow-container{
+	width: 20%;
+}
+
+.project-photos{
+	width: 100%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+.project-photos img{
+	width: 100%;
+	height: auto;
+}
+.project-description {
+	height: 100%;
+}
+.project-description p{
+	text-align: justify;
+}
+#total-project-caption{
+	display: inline-block;
+}
+
+/* caption */
+.cycle-caption { 
+	position: absolute;
+	color: white;
+ 	bottom: 10px; 
+ 	right: 15px; 
+ 	z-index: 700; 
+}
+.non-aero .cycle-caption{
+	bottom: 35px;
+}
+.non-aero{
+	margin-bottom: 1%;
+}
+.non-aero img{
+	width: 100%;
+}
+.non-aero li{
+	margin-left: 0px !important;
+}
+
+.caption-img{
+	margin-top: 1%;
+	text-align: center;
+}
+
+@media (max-width: 450px){
+	.project-slide .slideshow-container{
+		width: 100%;
+	}
+	.slideshow-container {
+		width: 100%;
+	}
+}
+@media (min-width: 450px){
+	.slideshow-container{
+		min-width: 400px;
+	}
+}

@@ -1,0 +1,77 @@
+html{
+	background-color: #efefef;
+}
+#form-container{
+	width:auto;
+	background-color: #efefef;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 15px;
+}
+
+form{
+	width: 70%;
+	max-width: 800px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border: 2px solid #000;
+	margin:0 auto;
+	background-color: #fff;
+}
+#buttons{
+	padding-top: 20px;
+}
+fieldset h1{
+	font-family: 'shift', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+label{
+	display: block;
+	padding-top: 10px;
+	font-size: 18px;
+	font-family: 'shift', sans-serif;
+}
+input{
+	width: 40%;
+}
+textarea{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.btn{
+	color:#000;
+	font-weight: bold;
+	width: 100px;
+}
+.btn:hover{
+	transition-property: background-color color;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	background-color: #000;
+	color:#ccc;
+}
+
+.redirect{
+	padding-bottom: 20px;
+}
+.report{
+	padding-top: 20px;
+}
+.submission_container{
+	padding-left: 20%;
+}
+::-webkit-input-placeholder{
+	font-style: italic;
+}
+
+.connect{
+	background-color: #efefef;
+	border-top: none;
+	padding-top: none;
+}
+
+.connect .container{
+	padding-top: 0px;
+}

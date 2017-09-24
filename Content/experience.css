@@ -1,0 +1,218 @@
+.experience-container{
+	margin: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	border-bottom: 3px solid #ccc;
+}
+
+#myTab{
+	background-color: #f7f7f7;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+#myTab li{
+	margin-top: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right: 5px;
+	margin-bottom: -2px;
+	
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+}
+
+#myTab li.active{
+	border: 1px solid black;
+	border-bottom: #e8e8e8;
+	background-color: #e8e8e8;
+	padding-bottom: 0px;
+	margin-bottom: -2px;
+	box-shadow: 2px -2px 5px;
+}
+
+#myTab li:hover a{
+	transition-property: background-color color;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	background-color: #f0f0f0;
+	box-shadow: 2px -2px 5px inset;
+}
+
+#myTab li.active:hover a{
+	box-shadow: none;
+}
+
+#myTab li.active a{
+	background-color: #e8e8e8;
+	border: none;
+	margin-bottom: 0px;
+}
+
+#tab1{
+	margin-left: 10%;
+}
+
+#myTab a{
+	color: #000;
+	margin-right: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 9pt;
+}
+
+#Lockheed{
+	background-color: #e8e8e8;
+	border-bottom: 3px solid #ccc;
+}
+
+#GEAE{
+	background-color: #e8e8e8;
+	border-bottom: 3px solid #ccc;
+}
+
+#honors-office{
+	background-color: #e8e8e8;
+	border-bottom: 3px solid #ccc;
+}
+
+#heop{
+	background-color: #e8e8e8;
+	border-bottom: 3px solid #ccc;
+}
+
+#honors-mentor{
+	background-color: #fff;
+	border-bottom: 3px solid #ccc;
+}
+
+.content{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.image-div{
+	float: left;
+	/*height:500px;*/
+}
+.section-thumbnail{
+	display: inline-block;
+	float: left;
+	width: 150px;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+#LMImage{
+	border: 3px solid #000099;
+	background-color: #fff;
+}
+
+#GEimage{
+	border: 3px solid #5c85ff;
+	background-color: #fff;
+}
+
+#honors{
+	border: 3px solid orange;
+	background-color: #fff;
+}
+
+#heop-thumbnail{
+	border: 3px solid #803f00;
+	background-color: #fff;
+}
+
+#honors-mentor-thumbnail{
+	border: 3px solid black;
+	background-color: #fff;
+}
+
+.caption{
+	/*height:500px;*/
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: 70%;
+}
+
+#location{
+	display:inline;
+	font-weight: normal;
+	font-size: 14pt;
+	font-style: italic;
+}
+.header{
+	text-align: left;
+}
+.header h4{
+	font-style: italic;
+	padding-bottom: 2px;
+	margin: 0px;
+}
+.header h3{
+	font-weight: bold;
+	padding-top: 0px;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	text-align: left;
+}
+
+.caption p{
+	margin-top: 10px;
+	margin-left: 170px;
+}
+
+.caption li{
+	text-align: left;
+}
+
+.dates{
+	margin-top: 1px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.responsibility-list{
+	width:90%;
+	margin-left: 165px;
+	margin-right: auto;
+	padding-left: 30px;
+}
+
+.responsibility-list li{
+	padding-bottom: 10px;
+	list-style: inside;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+@media(max-width: 600px){
+	.caption p{
+		margin-left: 0px;
+	}
+	.responsibility-list{
+		margin-left: 5px;
+	}
+	.image-div{
+		width: 100%;
+	}
+	#myTab li{
+		width: 20%;
+	}
+	#tab1{
+		margin-left: 5px;
+	}
+}
+
+@media(max-width: 1050px){
+	.caption{
+		width: 100%;
+	}
+}

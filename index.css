@@ -1,0 +1,432 @@
+html, body{
+	overflow-x: hidden;
+}
+.nav-pills a{
+	vertical-align: middle;
+	padding:0;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+
+#nav_bar{
+	margin-bottom: 0;
+	border-radius: 0px;
+	float: right;
+}
+#nav_bar .container{
+	float: right;
+	padding: 0px;
+	width: auto;
+}
+#tabs{
+	float: right;
+	padding: 0px;
+
+}
+.nav-pills li a{
+	padding: 15px 10px 15px 10px ;
+}
+.nav-pills-home li a{
+	padding: 15px 10px 5px 10px;
+	color: black;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: #ccc;
+  border-radius: 0px;
+}
+.nav-pills-home > li.active > a,
+.nav-pills-home > li.active > a:hover,
+.nav-pills-home > li.active > a:focus {
+  color: orange;
+  background-color: transparent;
+  padding-bottom: 5px;
+  border-radius: 0px;
+  border-bottom: 4px solid orange;
+}
+.centered-logo{
+	width:100%;
+	height:50px;
+	vertical-align: middle;
+	background-color: #000;
+	border-bottom: 2px solid #ccc;
+	background-size:100% 100%;
+}
+#logo{
+	padding-left: 25px;
+	display: inline block;
+	float:left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 5px;
+}
+
+.nav-pills a:hover{
+	color: #000;
+}
+
+#nav_bar li {
+	display: inline;
+	margin: 0;
+}
+
+#icon-img{
+	height: 50px;
+	padding: 10px;
+}
+.icon{
+	float: right;
+	width: 0px;
+	visibility: hidden;
+	height: 100%;
+}
+.icon a{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.hvr-shutter-out-vertical:before{
+	background: orange;
+	border-radius: 0px;
+}
+.hvr-shutter-out-vertical{
+	background: transparent;
+}
+
+
+/* The side navigation menu */
+#menu-btn{
+	display: none;
+}
+.active-sidenav{
+	background: orange;
+	color: black !important;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 500; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #919191;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.jumbotron {
+ 	background-image:url('Content/Media/jumbotronBackground_aero800.png');
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top:500px;
+
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	padding-top: 48px;
+}
+
+.jumbotron a {
+	font-size: 20px;
+	color: #efefef;
+}
+
+.jumbotron p{
+	color: #efefef;
+}
+
+.about-me .thumbnail{
+	height: 100%;
+	vertical-align: middle;
+}
+
+#aboutMeText{
+	text-align: justify;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	vertical-align: top;
+
+}
+#aboutMeText p{
+	font-family: "sans-serif", Times, sans-serif;
+	font-size: 16px;
+}
+
+
+.row-centered{
+	text-align: center;
+}
+
+.col-centered{
+	display: inline-block;
+	float: none;
+	text-align: left;
+	margin-right: -4px;
+}
+
+.work-experience {
+
+	background-color: #efefef;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 3px solid #dbdbdb;
+}
+.work-experience h2 {
+	color: #393c3d;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.work-experience .indexprojects p {
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.work-experience-text{
+	width:80%;
+	padding-left: 10%;
+}
+
+.thumbnail {
+	border:2px solid #fff;
+	margin: auto;
+}
+
+#work-thumbnails{
+	padding-bottom: 10px;
+}
+.work-experience img{
+	opacity: 0;
+}
+#jobcontainer1{
+	background-image: url('Content/Media/LMLogo_short.png');
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+
+#jobcontainer1:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	border:2px solid #000099;
+	background-image: url('Content/Media/LMRollover.png');
+	background-size: 100% 100%;
+}
+
+#jobcontainer2{
+	background-image: url('Content/Media/geaviation_square.png');
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+
+#jobcontainer2:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	border: 2px solid #5c85ff;
+	background-image: url('Content/Media/geaviationrollover.png');
+	background-size: 100% 100%;
+}
+
+#jobcontainer3{
+	background-image: url('Content/Media/honors.png');
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+
+#jobcontainer3:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;	
+	border: 2px solid #ff6600;
+	background-image: url('Content/Media/honorsrollover.png');
+	background-size: 100% 100%;
+}
+
+#project-thumbnails{
+	padding-bottom: 10px;
+}
+.indexprojects h2 {
+	color: #393c3d;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.cycle-slideshow{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	min-width: 150px;
+	margin-right: 10px;
+	
+}
+.cycle-slideshow img{
+	width: 100%;
+	height: 100%;
+}
+.slideshow-container{
+	display: inline-block;
+	width: 22%;
+	min-width: 150px;
+	margin-bottom: 10px;
+	margin-right: 1%;
+}
+.cycle-paused:after{
+	content: 'Paused';
+	color: white;
+	background: black;
+	padding: 10px;
+	z-index: 500;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 10px;
+	opacity: .9;
+}
+
+.center{
+	text-align: center;
+
+}
+
+.connect {
+	background-color: #f7f7f7;
+	border-top: 2px solid #dbdbdb;
+}
+
+.connect h3 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.connect a {
+	color: #00b0ff;
+}
+
+.connect .container{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.connect h2{
+	font-family: 'Shift', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+#facebook{
+	opacity: 0.7;
+}
+#linkedin{
+	opacity:0.7;
+}
+#facebook:hover{
+	transition-property: opacity;
+	transition duration: 0.25s;
+	transition-timing-function: eas-out;
+	opacity: 1.0;
+}
+#linkedin:hover{
+	transition-property: opacity;
+	transition duration: 0.25s;
+	transition-timing-function: eas-out;
+	opacity: 1.0;
+}
+
+@media (max-width: 680px){
+	.nav-pills{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
+	.icon{
+		visibility: visible;
+		width: 50px;
+	}
+}
+
+@media (max-width:680px) {
+	.nav-pills.responsive{
+		visibility: visible;
+		width: 100%;
+		z-index: 1000;
+	}
+
+  ul.nav-pills.responsive {position: relative;}
+  ul.nav-pills.responsive li.icon {
+  	visibility: visible;
+  	width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav-pills.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.nav-pills.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  #menu-btn{
+		display: block;
+		height: 32px;
+		width: 32px;
+		margin-top: 10px;
+		margin-right: 15px;
+	}
+	.jumbotron {
+	 	background-image:url('Content/Media/jumbotronBackground_aero_small.png');
+		height: 375px;
+	}
+	.jumbotron .container {
+		top:100px;
+	}
+}

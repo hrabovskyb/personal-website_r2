@@ -1,0 +1,238 @@
+.nav-pills a{
+	vertical-align: middle;
+	padding:0;
+}
+#nav_bar{
+	border-bottom: solid 2px #ccc ;
+	background-color: #008100;
+	margin-bottom: 0;
+	border-radius: 0px;
+}
+#tabs{
+	margin: auto;
+	width: 80%;
+
+}
+
+.nav a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+.active a{
+	background-color: #fff !important;
+}
+
+.nav li a{
+	padding: 10px 5px;
+}
+
+.centered-logo{
+	width:100%;
+	height:40px;
+	background-color: black;
+	border: 0px;
+	background-image: url('Content/Media/top_border_ccc.png');
+	background-size:100% 100%;
+}
+#logo{
+	padding-left: 25px;
+	display: block;
+	float:left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.nav a:hover{
+	color: #000;
+}
+
+#nav_bar li {
+	display: inline;
+	width: 20%;
+	border:none;
+	margin: 0;
+}
+.hvr-shutter-out-vertical:before{
+	background: #fff;
+	border-radius: 4px;
+}
+.hvr-shutter-out-vertical{
+	background: #008100;
+}
+
+.jumbotron {
+ 	background-image:url('Images/jumbotronImage.jpg');
+	height: 375px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top:100px;
+
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron a {
+	font-size: 20px;
+	color: #efefef;
+}
+
+.jumbotron p{
+	color: #efefef;
+}
+
+.about-me .thumbnail{
+	height: 100%;
+	vertical-align: middle;
+}
+
+#aboutMeText{
+	text-align: justify;
+	padding-bottom: 10px;
+}
+#aboutMeText p{
+	font-family: "sans-serif", Times, sans-serif;
+	font-size: 16px;
+}
+
+
+.row-centered{
+	text-align: center;
+}
+
+.col-centered{
+	display: inline-block;
+	float: none;
+	text-align: left;
+	margin-right: -4px;
+}
+
+.work-experience {
+
+	background-color: #efefef;
+	border-bottom: 2px solid #dbdbdb;
+	border-top: 3px solid #dbdbdb;
+}
+.work-experience .thumbnail{
+	margin-bottom: 15px;
+}
+.work-experience h2 {
+	color: #393c3d;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.work-experience p {
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.work-experience-text{
+	width:80%;
+	padding-left: 10%;
+}
+
+.thumbnail {
+	border:2px solid #fff;
+	margin: auto;
+}
+
+#work-thumbnails{
+	padding-bottom: 10px;
+}
+.work-experience img{
+	opacity: 0;
+}
+#jobcontainer1{
+	background-image: url('Images/ElectricCar_Scaled.png');
+	max-width: 250px;
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+#jobcontainer2{
+	background-image: url('Images/Recycling_Scaled.png');
+	max-width: 250px;
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+#jobcontainer3{
+	background-image: url('Images/SolarPower_Scaled.png');
+	max-width: 250px;
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+#jobcontainer4{
+	background-image: url('Images/WaterConservation_Scaled.png');
+	max-width: 250px;
+	background-size: 100% 100%;
+	border: 2px solid black;
+}
+
+/*#jobcontainer1:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	border:2px solid #000099;
+	background-image: url('Content/Media/LMRollover.png');
+	background-size: 100% 100%;
+}
+
+#jobcontainer2:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;
+	border: 2px solid #5c85ff;
+	background-image: url('Content/Media/geaviationrollover.png');
+	background-size: 100% 100%;
+}
+
+#jobcontainer3:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;	
+	border: 2px solid #ff6600;
+	background-image: url('Content/Media/honorsrollover.png');
+	background-size: 100% 100%;
+}
+
+#jobcontainer4:hover{
+	transition-property: background-image;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-out;	
+	border: 2px solid #ff6600;
+	background-image: url('Content/Media/honorsrollover.png');
+	background-size: 100% 100%;
+}*/
+
+.description .fact-list {
+	vertical-align: top;
+	border-right: solid 2px green;
+}
+
+.description .benefit-list{
+	vertical-align: top;
+}
+
+.description .container {
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+.headerText{
+	background: #eef7ee;
+	padding-bottom: 10px;
+}
+.headerText h3{
+	text-align: center;
+}

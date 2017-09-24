@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Brady Hrabovsky</title>
+	
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Hover-master/css/hover.css" media="all">
+    <link rel="stylesheet" href="index.css">
+    <!--link rel="stylesheet" href="Content/collapsetest.css"-->
+    <link rel="shortcut icon" href="Content/Media/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="cycle2.js"></script>
+    <script src="cycle2_center.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+
+    
+    
+    
+
+    <div class="jumbotron">
+        <div class="navbar" id="nav_bar">
+            <div onclick="openNav()" ><img src="Content/Media/menu-icon_black.png" id="menu-btn"></div>
+            
+            
+            <ul class="nav-pills nav-pills-home" id="tabs" >
+                <li class="active"><a href="#" class="hvr-shutter-out-vertical">Home</a></li>
+                <li><a href="Content/resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a></li>
+                <li><a href="Content/experience.html" class="hvr-shutter-out-vertical">Experience</a></li>
+                <li><a href="Content/projects.html" class="hvr-shutter-out-vertical">Projects</a></li>
+                <li><a href="Content/contact.html" class="hvr-shutter-out-vertical">Contact</a></li>
+            </ul>
+        
+        </div>
+
+        <div id="mySidenav" class = "sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="active-sidenav" href="#">Home</a>
+            <a href="Content/resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a>
+            <a href="Content/experience.html" class="hvr-shutter-out-vertical">Experience</a>
+            <a href="Content/projects.html" class="hvr-shutter-out-vertical">Projects</a>
+            <a href="Content/contact.html" class="hvr-shutter-out-vertical">Contact</a>
+        </div>
+        <script>
+           
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div class="container">
+            
+            <h1>Brady Hrabovsky</h1>
+            <a href="https://goo.gl/efUb0s" target="_blank">Mechanical Engineering, BS/MEng </a>
+            <p><a href="https://www.rit.edu" target="_blank">Rochester Institute of Technology</a>, 2018</p>
+        </div>
+    </div> 
+
+    
+
+    <div class="about-me">
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-xs-10 col-lg-8 col-centered" id="aboutMeText">
+                    <h2>About me</h2>
+                    <p>I am an Honors Dual Degree Mechanical Engineering student studying at the Rochester Institute of Technology in Rochester, NY, class of 2018. In order to broaden my technical background I am also minoring in Electrical Engineering. Outside of classes I am heavily involved in the Aero Design Club as well as the school&#39;s American Society of Mechanical Engineers chapter, holding e-board positions within both organizations.</p>
+                    <p>I have a passion for the aerospace/aviation industry and thus am striving to begin my career there. Ultimately I hope to hold a position leading design teams for military and defense contracts or space exploration programs.</p>
+                    <p>I have a hobby-level interest in RC Aircraft, including both fixed wing and multi-rotor types. I also enjoy building and modifying personal computers. </p>
+                </div>
+                <div class="col-xs-6 col-lg-4 col-centered">
+                    <div class="thumbnail">
+                        <img src="Content/Media/brady_hrabovsky.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work-experience">
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-xs-10 col-sm-9 col-centered">
+                    <h2>Work Experience</h2>
+                    <p>My past work experience. Click to learn more.</p>
+                </div>
+            </div>
+            <div class="row row-centered" id="work-thumbnails">
+                <div class="col-xs-5 col-sm-3 col-centered">
+                    <div class="thumbnail" id="jobcontainer1">
+                        <a href="Content/experience.html"><img src="Content/Media/LMLogo.png"></a>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-sm-3 col-centered">
+                    <div class="thumbnail" id="jobcontainer2">
+                        <a href="Content/experience.html"><img src="Content/Media/geaviation_square.png"></a>
+                    </div>
+                </div>
+                <div class="col-xs-5 col-sm-3 col-centered">
+                    <div class="thumbnail" id="jobcontainer3">
+                        <a href="Content/experience.html"><img src="Content/Media/honors.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="indexprojects">
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-xs-10 col-sm-9 col-centered">
+                    <h2>Projects</h2>
+                    <p>Click a set of images to learn more about the project.</p>
+                </div>
+
+                <div class="row row-centered" id="project-thumbnails">
+                   <div class="slideshow-container">
+                        <a href="Content/projects.html#aerodesign">
+                            <div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="2000" data-cycle-center-horz=true data-cycle-center-vert=true data-cycle-pause-on-hover="true" data-cycle-caption="#caption-aeroclub" data-cycle-caption-template="Aero Design Club">
+                                <img src="Content/Media/aero-aiaa-2017-thumb.png">
+                                <img src="Content/Media/uavIndex.png">
+                                <img src="Content/Media/windTunnelScaled.png">
+                                <img src="Content/Media/powerSupplyIndex.png">
+                            </div>
+                        </a>
+                        <div id="caption-aeroclub" class="center"></div>
+                    </div>
+                    <div class="slideshow-container">
+                        <a href="Content/projects.html#meetthejetsons">
+                            <div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="2000" data-cycle-center-horz=true data-cycle-center-vert=true data-cycle-pause-on-hover="true" data-cycle-caption="#caption-jetsons" data-cycle-caption-template="RIT Meets the Jetsons">
+                                <img src="Content/Media/ritMeetsTheJetsons.png">
+                                <img src="Content/Media/jetsons_img4Index.png">
+                                <img src="Content/Media/jetsons_img3Index.png">
+                            </div>
+                        </a>
+                        <div id="caption-jetsons" class="center"></div>
+                    </div>
+                    <div class="slideshow-container">
+                        <a href="Content/projects.html#quadcopter">
+                            <div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="2000" data-cycle-center-horz=true data-cycle-center-vert=true data-cycle-pause-on-hover="true" data-cycle-caption="#caption-quadcopter" data-cycle-caption-template="DIY Quadcopter">
+                                <img src="Content/Media/quadScaled.png">
+                                <img src="Content/Media/quad1Index.png">
+                                <img src="Content/Media/quad2Index.png">
+                            </div>
+                        </a>
+                        <div id="caption-quadcopter" class="center"></div>
+                    </div>
+                    
+              
+                                    
+                    <!--div class="col-xs-5 col-sm-3 col-centered">
+                        
+                    <div class="col-xs-5 col-sm-3 col-centered">
+                        <div class="projectThumbnail" id="project3">
+                            <a href="Content/projects.html#aerodesign" id="project3Link">
+                                
+                            </a>
+                        </div>
+                        <script type="text/javascript">
+                            var aTag3 = document.getElementById("project3Link");
+                            var img3 = document.createElement("img");
+                            aTag3.appendChild(img3);
+                            var thumbtimer, ti=0, dir="Content/Media/", def3 = "tandemWingIndex.png";
+                            var pics3 =["uavIndex.png","windTunnelScaled.png","powerSupplyIndex.png",def3];
+                            img3.src=dir+def3;
+                            img3.addEventListener("mouseover",function(event){
+                                img3.src = dir+pics3[ti]
+                                thumbtimer=setInterval(function(){
+                                    ti++;
+                                    if(ti==pics3.length){
+                                        ti=0;
+                                    }
+                                    img3.src = dir+pics3[ti];
+                                },1000);
+                            });
+                            img3.addEventListener("mouseout",function(event){
+                                clearInterval(thumbtimer);
+                                ti=0;
+                                img3.src = dir+def3;
+                            });
+                        </script>
+                        <div class="description">
+                            <p>Aero Design Club</p>
+                        </div>
+                    </div-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="connect">
+        <div class="container">
+            <div class="row row-centered">
+                <h2>Connect with me on Social Media</h2>
+            </div>
+            <div class="row row-centered">
+                <a href="https://www.facebook.com/brady.hrabovsky" target="_blank"><img src="Content/Media/facebook.jpg" height=75px width=75px id="facebook"></a>
+                <a href="https://www.linkedin.com/pub/brady-hrabovsky/a4/422/5b8" target="_blank"><img src="Content/Media/linkedin.jpg" height=75px width=75px id="linkedin"></a>
+            </div>
+        </div>
+	</div>
+
+
+</body>
+</html>

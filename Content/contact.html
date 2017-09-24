@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../Hover-master/css/hover.css" media="all">
+    <link rel="stylesheet" href="../index.css">
+	<link rel="stylesheet" href="contact.css">
+	<link rel="shortcut icon" href="Media/favicon.ico">
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+	<div class="centered-logo">
+        <a href="../index.html"><img src="Media/gear_orange.png" id="logo"></a>
+        <div class="navbar" id="nav_bar">
+            <div class="container">
+                <div onclick="openNav()" ><img src="../Content/Media/menu-icon.png" id="menu-btn"></div>
+                
+                <ul class="nav-pills" id="tabs">
+                    <li><a href="../index.html" class="hvr-shutter-out-vertical">Home</a></li>
+                    <li><a href="resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a></li>
+                    <li><a href="experience.html" class="hvr-shutter-out-vertical">Experience</a></li>
+                    <li><a href="projects.html" class="hvr-shutter-out-vertical">Projects</a></li>
+                    <li class="active"><a href="#" class="hvr-shutter-out-vertical">Contact</a></li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div id="mySidenav" class = "sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html" class="hvr-shutter-out-vertical">Home</a>
+            <a href="resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a>
+            <a href="experience.html" class="hvr-shutter-out-vertical">Experience</a>
+            <a href="projects.html" class="hvr-shutter-out-vertical">Projects</a>
+            <a class = "active-sidenav" href="#">Contact</a>
+        </div>
+        <script>
+           
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+    </div>
+
+	<div id="form-container">
+		<form action="../formmail.php" method="post">
+			<fieldset id="fields">
+				<h1>Contact Me</h1>
+				<input type="hidden" name="recipients" value="hrabovskybrady@gmail.com"/>
+				<input type="hidden" name="good_url" value="Content/successfulformsubmission.html"/>
+				<label class="name" for="name">Name:</label>
+				<input name="name" placeholder="Name"/>
+				<label class="email" for="email">Email:</label>
+				<input name="email" placeholder="example@domain.ext"/>
+				<label class="subject" for="subject">Subject:</label>
+				<input name="subject" placeholder="Subject"/>
+				<label class="message" for="message">Message:</label>
+				<textarea name="message" placeholder="Type your message here..."></textarea>
+			</fieldset>
+			<fieldset id="buttons">
+				<input class="btn" type="submit" value="Submit"/>
+				<input class="btn" type="reset" value="Clear All"/>
+			</fieldset>
+		</form>
+	</div>
+
+	<div class="connect">
+        <div class="container">
+            <div class="row row-centered">
+                <h2>Or connect with me on Social Media</h2>
+            </div>
+            <div class="row row-centered">
+                <a href="https://www.facebook.com/brady.hrabovsky" target="_blank"><img src="Media/facebook.jpg" height=75px width=75px id="facebook"></a>
+                <a href="https://www.linkedin.com/pub/brady-hrabovsky/a4/422/5b8" target="_blank"><img src="Media/linkedin.jpg" height=75px width=75px id="linkedin"></a>
+            </div>
+        </div>
+	</div>
+
+
+
+</body>
+</html>

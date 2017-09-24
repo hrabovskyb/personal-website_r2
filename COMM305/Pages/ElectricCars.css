@@ -1,0 +1,31 @@
+.jumbotron {
+ 	background-image:url('../Images/ElectricCar_jumbotron_375.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 0px;
+	background-color: black;
+	height: 275px;
+	padding: 0px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top:100px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron a {
+	font-size: 20px;
+	color: #efefef;
+}
+
+.jumbotron p{
+	color: #efefef;
+}
