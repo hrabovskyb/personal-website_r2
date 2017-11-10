@@ -55,7 +55,7 @@ button.accordion{
 	text-align: left;
 	border: none;
 	outline: none;
-	transition: 0.4s;
+	transition: 1s;
 	padding: 18px;
 	border-bottom: 4px solid #ccc;
 }
