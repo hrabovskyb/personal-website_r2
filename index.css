@@ -399,28 +399,31 @@ html, body{
 		z-index: 1000;
 	}
 
-  ul.nav-pills.responsive {position: relative;}
-  ul.nav-pills.responsive li.icon {
-  	visibility: visible;
-  	width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.nav-pills.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.nav-pills.responsive li a {
-    display: block;
-    text-align: left;
-  }
-  #menu-btn{
+	ul.nav-pills.responsive {position: relative;}
+	ul.nav-pills.responsive li.icon {
+		visibility: visible;
+	  	width: 100%;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	ul.nav-pills.responsive li {
+	    float: none;
+	    display: inline;
+	}
+	ul.nav-pills.responsive li a {
+	    display: block;
+	    text-align: left;
+	}
+  	#menu-btn{
 		display: block;
 		height: 32px;
 		width: 32px;
 		margin-top: 10px;
 		margin-right: 15px;
+	}
+	#menu-btn:hover{
+		cursor: pointer;
 	}
 	.jumbotron {
 	 	background-image:url('Content/Media/jumbotronBackground_aero_small.png');
