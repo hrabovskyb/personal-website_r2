@@ -19,12 +19,12 @@ button{
 }
 
 .lockheed{
-	background: url('media/lm_star.png');
+	background: url('Media/lm_star.png');
 
 }
 
 .GEAE{
-	background: url('media/ge_logo.png');
+	background: url('Media/ge_logo.png');
 }
 
 .lockheed.active, .GEAE.active{
@@ -32,10 +32,10 @@ button{
 }
 
 .honors{
-	background: url('media/honors_logo.png');
+	background: url('Media/honors_logo.png');
 }
 .heop{
-	background: url('media/heop_logo.png');
+	background: url('Media/heop_logo.png');
 }
 .honors.active, .heop.active{
 	color: #ff8c00;
@@ -83,6 +83,7 @@ div.panel{
 }
 .panel-container{
 	padding: 10px;
+	margin-bottom: 10px;
 	border-bottom: 4px solid #ccc;
 	background-color: #eee;
 }
@@ -169,6 +170,9 @@ div.panel p{
 }
 
 @media(max-width: 1050px){
+	.experience-container{
+		width: 100%;
+	}
 	.caption{
 		width: 100%;
 	}
