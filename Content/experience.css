@@ -1,142 +1,99 @@
 .experience-container{
 	margin: 0;
-	width: 100%;
+	width: 80%;
 	padding-top: 20px;
 	padding-left: 0;
 	padding-right: 0;
-	border-bottom: 3px solid #ccc;
+	/*border-bottom: 3px solid #ccc;*/
+	margin: auto;
+}
+.card-header{
+	background: #ccc;
+	width: 100%;
+}
+a{
+	width: 100%;
+}
+button{
+	size: 24pt;
 }
 
-#myTab{
-	background-color: #f7f7f7;
-	border-bottom: 1px solid black;
-	position: relative;
+.lockheed{
+	background: url('media/lm_star.png');
+
 }
 
-#myTab li{
-	margin-top: 5px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	margin-right: 5px;
-	margin-bottom: -2px;
-	
-	text-align: center;
-	position: relative;
-	bottom: 0px;
+.GEAE{
+	background: url('media/ge_logo.png');
 }
 
-#myTab li.active{
-	border: 1px solid black;
-	border-bottom: #e8e8e8;
-	background-color: #e8e8e8;
-	padding-bottom: 0px;
-	margin-bottom: -2px;
-	box-shadow: 2px -2px 5px;
+.lockheed.active, .GEAE.active{
+	color: #000080;
 }
 
-#myTab li:hover a{
-	transition-property: background-color color;
-	transition-duration: 0.25s;
-	transition-timing-function: ease-out;
-	background-color: #f0f0f0;
-	box-shadow: 2px -2px 5px inset;
+.honors{
+	background: url('media/honors_logo.png');
+}
+.heop{
+	background: url('media/heop_logo.png');
+}
+.honors.active, .heop.active{
+	color: #ff8c00;
 }
 
-#myTab li.active:hover a{
-	box-shadow: none;
+#heop-panel{
+	margin-bottom: 100px;
 }
 
-#myTab li.active a{
-	background-color: #e8e8e8;
+button.accordion{
+	height: 200px;
+	width: 100%;
+	background-size: 50%;
+	background-position-x: right;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	text-align: left;
 	border: none;
-	margin-bottom: 0px;
+	outline: none;
+	transition: 0.4s;
+	padding: 18px;
+	border-bottom: 4px solid #ccc;
 }
 
-#tab1{
-	margin-left: 10%;
+
+button.accordion:hover, button.accordion.active{
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position-x: right;
 }
 
-#myTab a{
-	color: #000;
-	margin-right: 0px;
-	padding-right: 10px;
-	padding-left: 10px;
-	font-size: 9pt;
+button.accordion.active{
+	border-bottom: none;
+	
 }
 
-#Lockheed{
-	background-color: #e8e8e8;
-	border-bottom: 3px solid #ccc;
+div.panel{
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin: 0px;
+
+}
+.panel-container{
+	padding: 10px;
+	border-bottom: 4px solid #ccc;
+	background-color: #eee;
 }
 
-#GEAE{
-	background-color: #e8e8e8;
-	border-bottom: 3px solid #ccc;
-}
-
-#honors-office{
-	background-color: #e8e8e8;
-	border-bottom: 3px solid #ccc;
-}
-
-#heop{
-	background-color: #e8e8e8;
-	border-bottom: 3px solid #ccc;
-}
-
-#honors-mentor{
-	background-color: #fff;
-	border-bottom: 3px solid #ccc;
-}
-
-.content{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
-
-.image-div{
-	float: left;
-	/*height:500px;*/
-}
-.section-thumbnail{
-	display: inline-block;
-	float: left;
-	width: 150px;
-	padding: 5px;
-	margin-right: 20px;
-}
-
-#LMImage{
-	border: 3px solid #000099;
-	background-color: #fff;
-}
-
-#GEimage{
-	border: 3px solid #5c85ff;
-	background-color: #fff;
-}
-
-#honors{
-	border: 3px solid orange;
-	background-color: #fff;
-}
-
-#heop-thumbnail{
-	border: 3px solid #803f00;
-	background-color: #fff;
-}
-
-#honors-mentor-thumbnail{
-	border: 3px solid black;
-	background-color: #fff;
+div.panel p{
+	padding: 10px 0px;
 }
 
 .caption{
 	/*height:500px;*/
-	text-align: justify;
+	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	width: 70%;
@@ -166,7 +123,7 @@
 
 .caption p{
 	margin-top: 10px;
-	margin-left: 170px;
+	margin-left: 0px;
 }
 
 .caption li{
@@ -181,7 +138,7 @@
 
 .responsibility-list{
 	width:90%;
-	margin-left: 165px;
+	margin-left: 0px;
 	margin-right: auto;
 	padding-left: 30px;
 }

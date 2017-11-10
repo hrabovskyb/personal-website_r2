@@ -26,6 +26,10 @@ $(document).ready(function(){
 });
 </script>
 
+
+
+
+
 <body>
 
 	<div class="centered-logo">
@@ -70,7 +74,172 @@ $(document).ready(function(){
 
 
   	<body>
-	<div class="all-experience">
+  		<div class="experience-container">
+	  		<button class="accordion lockheed" ><h1>Lockheed Martin</h1></button>
+	  		<div class="panel">
+	  			<div class="panel-container">
+	  				<div class="header">
+	  					<h3>Lockheed Martin Corporation,<span id="location"> Bothell, NY</span></h3>
+	  					<h4>Intern</h4>
+	  					<h5 class="dates">June, 2017 - August, 2017</h5>
+	  					<p>Provided design support for infrared laser counter measure applications, including mechanical aperture design as well as electronics selection. Additionally, utilizing CREO and ANSYS, provided design and structural analysis for contract proposal efforts. </p>
+	  				</div>
+	  				<br><br>
+		  			<div class="header">
+	  					<h3>Lockheed Martin Corporation,<span id="location"> Syracuse, NY</span></h3>
+	  					<h4>Intern</h4>
+	  					<h5 class="dates">June, 2016 - August, 2016</h5>
+	  					<p>Employed CREO and ANSYS in support of the Production Hardware team to design and analyze various integration and structural components to be implemented on developing product lines. Teamed up with manufacturing teams to implement improvements to the safety and reliability of current pneumatic test equipment. </p>
+	  				</div>
+  				</div>
+	  		</div>
+
+	  		<button class="accordion GEAE" ><h1>GE Aviation</h1></button>
+	  		<div class="panel">
+	  			<div class="panel-container">
+		  			<div class="header">
+	  					<h3>GE Aviation,<span id="location"> Lynn, MA</span></h3>
+	  					<h4>Co-op</h4>
+	  					<h5 class="dates">June, 2015 - December, 2015</h5>
+	  				</div>
+	  				<div class="caption">
+	  					<p>Support Lynn Logistics with day to day operations including:</p>
+	  					<ul class="responsibility-list">
+	  						<li>Support quality leader with maintaining quality control area. Inspect and work to clear parts that are found to be suspect during the packaging process.</li>
+	  						<li>Run and analyze daily reports for all work in the shop.</li>
+	  						<li>Maintain special government-instated process to handle all hardware from suspect suppliers.</li>
+	  					</ul>
+	  					<p>Lead various special projects to improve safety, quality, and delivery for the site:</p>
+	  					<ul class="responsibility-list">
+	  						<li>Manage and improve the maintenance of various performance metrics.</li>
+	  						<li>Design and implement Point of Use boxes in manufacturing buildings on site. These boxes seek to reduce the amount of handling time of a particular part by having the part placed in the proper box at the point of manufacture. Less handling time leads to a decreased chance for injuries or quality issues associated with the handling of the part.</li>
+	  					</ul>
+	  				</div>
+	  			</div>
+	  		</div>
+
+	  		<button class="accordion honors"><h1>Honors Program</h1></button>
+	  		<div class="panel">
+	  			<div class="panel-container">
+		  			<div class="header">
+	  					<h3>Honors Program at RIT,<span id="location"> Rochester, NY</span></h3>
+	  					<h4>Student Assistant</h4>
+	  					<h5 class="dates">September 2013 - Present</h5>
+	  					<p>Assist program Director and Assistant Director. Complete monthly procurement card log, maintain monthly expenditure tracking reports, as well as assist in coordination of yearly social events and institution activities. </p>
+	  				</div>
+	  				<br><br>
+
+		  			<div class="header">
+	  					<h3>Honors Program at RIT,<span id="location"> Rochester, NY</span></h3>
+	  					<h4>Honors Mentor</h4>
+	  					<h5 class="dates">Fall 2014, 2015, 2016, 2017</h5>
+	  					<p>With another mentor partner lead a group of incoming Honors Students in order to welcome them to the campus and help them become acquainted with the Honors Program. Help to build a sense of community among the students, as well as make them aware of all support networks available to them. Act as a continual resource during their time as a student at RIT.</p>
+	  				</div>
+	  			</div>
+	  		</div>
+
+	  		<button class="accordion heop"><h1>Higher Education Opportunities Program</h1></button>
+	  		<div class="panel">
+	  			<div class="panel-container" id="heop-panel">
+		  			<div class="header">
+	  					<h3>RIT HEOP,<span id="location"> Rochester, NY</span></h3>
+	  					<h4>Academic Tutor</h4>
+	  					<h5 class="dates">March 2015 - May, 2016</h5>
+	  					<p>Provided academic support to students in various engineering courses, including statics, strengths of materials, and circuits.</p>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+
+	  	<!-- Accordion animation scritp-->
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.maxHeight){
+						panel.style.maxHeight = null;
+					} else {
+						panel.style.maxHeight = panel.scrollHeight + "px";
+					}
+				}
+			}
+
+		</script>
+  		
+  		<!--div class="experience-container">
+	  		<div id="accordion" role="tablist">
+			  	<div class="card">
+				    <div class="card-header" role="tab" id="headingOne">
+				      	<h5 class="mb-0">
+				        	<button class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				          		Lockheed Martin
+				        	</button>
+				      	</h5>
+				    </div>
+
+				    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+				      	<div class="card-body">
+				        	<ul>
+				        		<li>Syracuse, NY</li>
+				        		<li>Bothell, WA</li>
+				        	</ul>
+				      	</div>
+				    </div>
+				</div>
+			  	<div class="card">
+				    <div class="card-header" role="tab" id="headingTwo">
+					    <h5 class="mb-0">
+				    	    <button class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				        	  GE Aviation
+				        	</button>
+				      	</h5>
+				    </div>
+			    	<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+				    	<div class="card-body">
+				        	Logistics Co-op
+				      	</div>
+				    </div>
+			  	</div>
+				<div class="card">
+			    	<div class="card-header" role="tab" id="headingThree">
+			      		<h5 class="mb-0">
+		        			<button class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          			Honors Program
+					        </button>
+				     	</h5>
+				    </div>
+				    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+				     	<div class="card-body">
+				        	<ul>
+				        		<li>Student Worker</li>
+				        		<li>Honors Mentor</li>
+				        	</ul>
+				      	</div>
+				    </div>
+				</div>
+				<div class="card">
+			    	<div class="card-header" role="tab" id="headingFour">
+			      		<h5 class="mb-0">
+		        			<button class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			          			Higher Education Opportunities Program
+					        </button>
+				     	</h5>
+				    </div>
+				    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+				     	<div class="card-body">
+				        	Academic Tutor
+				      	</div>
+				    </div>
+				</div>
+			</div>
+		</div-->
+
+
+	<!--div class="all-experience">
 	    <ul class="nav nav-tabs" id="myTab">
 	    	<li class="active" id="tab1"><a data-toggle="tab" href="#Lockheed">Lockheed Martin</a></li>
 	        <li><a data-toggle="tab" href="#GEAE">GE Aviation</a></li>
@@ -94,16 +263,6 @@ $(document).ready(function(){
 			  					<p>Supported Production Hardware team with the design and analysis of various components to
 									be implemented on product lines that were under development. Worked with manufacturing
 									teams to improve the safety and reliability of current product test equipment.</p>
-			  					<!--ul class="responsibility-list">
-			  						<li>Support quality leader with maintaining quality control area. Inspect and work to clear parts that are found to be suspect during the packaging process.</li>
-			  						<li>Run and analyze daily reports for all work in the shop.</li>
-			  						<li>Maintain special government-instated process to handle all hardware from suspect suppliers.</li>
-			  					</ul>
-			  					<p>Lead various special projects to improve safety, quality, and delivery for the site:</p>
-			  					<ul class="responsibility-list">
-			  						<li>Manage and improve the maintenance of various performance metrics.</li>
-			  						<li>Design and implement Point of Use boxes in manufacturing buildings on site. These boxes seek to reduce the amount of handling time of a particular part by having the part placed in the proper box at the point of manufacture. Less handling time leads to a decreased chance for injuries or quality issues associated with the handling of the part.</li>
-			  					</ul-->
 			  				</div>
 			  			</div>
 			  		</div>
@@ -198,6 +357,6 @@ $(document).ready(function(){
 			  	</div>
 			</div>
 	    </div>
-	</div>
+	</div-->
 </body>
 </html>
