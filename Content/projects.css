@@ -1,3 +1,112 @@
+
+.box {
+	width: 80%;
+	margin: 0px auto;
+	background: rgba(255,255,255,0.2);
+	padding: 20px 35px;
+	border-bottom: 4px solid #ccc;
+	background-clip: padding-box;
+	text-align: center;
+	text-align: left;
+}
+.box:hover{
+	background-color: #eee;
+
+}
+
+.box img{
+	display: inline;
+	width: 30%;
+	vertical-align: middle;
+}
+.box a{
+	text-decoration: none;
+	color: black;
+}
+.box p, .box h2{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+.box h2{
+	font-size: 24px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+  display: none;
+}
+.overlay:target {
+  visibility: visible;
+  display: inherit;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+	display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  margin: 25px 0px;
+}
+
+@media(max-width: 800px){
+  .box{
+    width: 95%;
+  }
+  .box img{
+  	width: 60%;
+  }
+  .popup{
+    width: 95%;
+  }
+}
+@media(max-width: 500px){
+	.box img{
+		width: 80%;
+	}
+	.box{
+		text-align: center;
+	}
+}
+
+
 .projects{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -40,46 +149,6 @@ h5{
 
 .navbar{
 	margin: 0;
-}
-#meetthejetsons{
-	margin: 0;
-	margin-right: 0;
-	width: 100%;
-	padding-top: 20px;
-}
-#jetsons-content{
-	padding:auto;
-	background-color: #ccc;
-}
-
-#quadcopter{
-	width:100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-#aerodesign{
-	width:100%;
-	padding-top: 10px;
-	padding-bottom: 20px;
-
-
-}
-#aeroinfo{
-	padding-bottom: 10px;
-	height: 100%;
-	
-}
-
-#aeroprojects h4{
-	text-align: center;
-	padding-top: 5px;
-	margin-bottom: 0;
-	font-style: normal;
-}
-#aeroprojects p{
-	padding: 2px;
-	text-align: center;
 }
 
 .cycle-slideshow{
